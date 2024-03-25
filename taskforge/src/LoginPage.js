@@ -1,10 +1,11 @@
 import login from './loginPage.jpg';
 import './App.css';
 
-function App() {
+function Login() {
   return (
     <div className="App">
       <header className="App-header">
+        <p class="login">This is a box</p>
         <img src={login} className="App-login" alt="login" />
       </header>
       <footer>
@@ -21,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;

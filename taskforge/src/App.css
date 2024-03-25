@@ -1,9 +1,11 @@
+
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #285e6e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +20,16 @@
 }
 
 .App-login {
-  height: 60%;
-  width: 60%;
+  height: 75%;
+  width: 75%;
   border-radius: 12px;
-  padding: 5px;  
+  padding: 5px;
+  background-image: url("./loginPage.jpg");
+}
+
+.login {
+  border-radius: 12px;
+  padding: 5px;
+  color: #282c34;
+  font-weight: 1000;
 }
